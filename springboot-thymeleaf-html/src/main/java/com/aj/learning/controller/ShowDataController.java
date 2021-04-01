@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/item")
 public class ShowDataController {
 
-    @GetMapping("/{id}")
-    public String showDate(@PathVariable("id") Long id){
-        return "返回ID为" + id + "的数据";
+    @GetMapping("/{itemId}")
+    public String showDate(@PathVariable("itemId") Long itemId){
+        return "返回ID为" + itemId + "的数据";
     }
 
 }
