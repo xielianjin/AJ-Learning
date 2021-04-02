@@ -136,4 +136,5 @@ template.render("item.html", context)
 1. nginx中/item项应该指到静态页面服务器
 2. 生成服务使用异步，并且为独立服务
 3. 如果有多种类型，可以用AsyncTask做统一规划
+4. 当一些例如价格是变的，需要嵌入js脚本，加载的时候异步去获取。
 ```
